@@ -1,0 +1,97 @@
+body {
+  background: #242B33;
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  color: #fff;
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-right: 10px; 
+  padding-left: 10px;
+ }
+
+ .logo {
+   width: 134px;
+   height: 66px;
+ }
+
+ .logo img {
+   padding-top: 30px;
+   margin-bottom: 5px;
+ }
+
+ .logotext {
+   font-size: 12px;
+   line-height: 14px;
+   letter-spacing: 0.12em;
+   color: #fff;
+   text-align: center;
+ }
+
+.main-menu ul {
+  margin-left: 435px;
+  display: flex;
+}
+
+.main-menu li {
+  margin-right: 40px;
+}
+
+.text {
+  padding-top: 230px;
+  text-align: center;
+  color: #D4C17F;
+  font: bold 48px/64px 'Playfair Display', serif;
+}
+
+.mouse {
+  text-align: center;
+}
+
+.mouse img {
+  padding-top: 100px;
+}
+
+.contact {
+  display: flex;
+}
+
+.information {
+  display: flex;
+  margin: auto;
+}
+
+.information img {
+  width: 21px;
+  height: 21px;
+  margin: auto;
+  margin-right: 5px;
+}
+
+.contact-info {
+  color: #fff;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+
+
+
+
