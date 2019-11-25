@@ -136,6 +136,24 @@ a {
   margin:0 30px 30px 0;
 }
 
+.wantview {
+  background: url('/assets/img/Wanttosee.png')no-repeat;
+}
+
+.question {
+  padding: 100px 0 50px 0; 
+}
+
+.loremtext {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.wantviewtext {
+  
+}
+
 
 
 
