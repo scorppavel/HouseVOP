@@ -111,6 +111,7 @@ a {
 
 .info-structure {
   text-align: center;
+  padding-bottom: 120px;
 }
 
 .textinform {
@@ -120,6 +121,20 @@ a {
   font: normal 20px/300 27px 'Roboto', sans-serif;
 }
 
+.secondtext {
+  padding-bottom: 100px;
+  color: #D4C17F;
+  text-align: left;
+  font: bold 36px/48px 'Playfair Display', serif;
+}
+
+.imagefirst {
+  display: flex;
+ }
+
+.imagefirst img {
+  margin:0 30px 30px 0;
+}
 
 
 
