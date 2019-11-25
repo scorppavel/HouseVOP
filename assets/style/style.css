@@ -27,6 +27,11 @@ a {
   padding-left: 10px;
  }
 
+ .wrapper {
+  max-width: 794px;
+  margin: 0 auto;
+ }
+
  .logo {
    width: 134px;
    height: 66px;
@@ -71,11 +76,11 @@ a {
 
 .contact {
   display: flex;
+  padding-top: 100px;
 }
 
 .information {
   display: flex;
-  margin: auto;
 }
 
 .information img {
@@ -91,6 +96,45 @@ a {
   line-height: 21px;
 }
 
+.adress {
+  margin-right: 350px;
+}
+
+.backimage {
+  background: url('/assets/img/Rectangle.png')no-repeat;
+}
+
+.image-information {
+  display: flex;
+  padding-top: 200px;
+}
+
+.info-structure {
+  text-align: center;
+  padding-bottom: 120px;
+}
+
+.textinform {
+  padding-top: 50px;
+  margin-right: 25px;
+  color: #fff;
+  font: normal 20px/300 27px 'Roboto', sans-serif;
+}
+
+.secondtext {
+  padding-bottom: 100px;
+  color: #D4C17F;
+  text-align: left;
+  font: bold 36px/48px 'Playfair Display', serif;
+}
+
+.imagefirst {
+  display: flex;
+ }
+
+.imagefirst img {
+  margin:0 30px 30px 0;
+}
 
 
 
