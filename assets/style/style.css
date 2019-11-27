@@ -20,11 +20,20 @@ a {
   color: #fff;
 }
 
+input {
+  outline:none;
+}
+
 .container {
   max-width: 1110px;
   margin: 0 auto;
   padding-right: 10px; 
   padding-left: 10px;
+ }
+
+ .wrapper {
+  max-width: 794px;
+  margin: 0 auto;
  }
 
  .logo {
@@ -71,11 +80,11 @@ a {
 
 .contact {
   display: flex;
+  padding-top: 100px;
 }
 
 .information {
   display: flex;
-  margin: auto;
 }
 
 .information img {
@@ -90,6 +99,129 @@ a {
   font-size: 18px;
   line-height: 21px;
 }
+
+.adress {
+  margin-right: 350px;
+}
+
+.backimage {
+  background: url('/assets/img/Rectangle.png')no-repeat;
+}
+
+.image-information {
+  display: flex;
+  padding-top: 200px;
+}
+
+.info-structure {
+  text-align: center;
+  padding-bottom: 120px;
+}
+
+.textinform {
+  padding-top: 50px;
+  margin-right: 25px;
+  color: #fff;
+  font: normal 20px/300 27px 'Roboto', sans-serif;
+}
+
+.secondtext {
+  padding-bottom: 100px;
+  color: #D4C17F;
+  text-align: left;
+  font: bold 36px/48px 'Playfair Display', serif;
+}
+
+.imagefirst {
+  display: flex;
+ }
+
+.imagefirst img {
+  margin:0 30px 30px 0;
+}
+
+.wantview {
+  background: url('/assets/img/Wanttosee.png')no-repeat;
+}
+
+.question {
+  padding: 100px 0 50px 0; 
+}
+
+.loremtext {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.wantviewtext {
+  display: flex;
+}
+
+.details {
+  display: flex;
+  margin-left: 35px;
+}
+
+.username {
+  margin: 0 30px 35px 0;
+  opacity: 65%;
+}
+
+.phone {
+  opacity: 65%;
+}
+
+input {
+  width: 255px;
+  height: 50px;
+  background: #3E454D;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 27px;
+}
+
+::placeholder {
+  color: #BEBEBE;
+  text-align: center;
+}
+
+.conditions {
+  display: flex;
+  margin: auto;
+}
+
+button {
+  width: 255px;
+  height: 50px;
+  background: #D4C17F;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 27px;
+}
+
+.textconditions {
+  margin: auto;
+  font-size: 13px;
+  line-height: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.btn p {
+  margin: auto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+
+
+
 
 
 
