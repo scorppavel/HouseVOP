@@ -220,14 +220,27 @@ button {
   line-height: 27px;
 }
 
-
 .video {
   display: flex;
+  padding-bottom: 180px;
 }
 
 .videoplay {
   margin: auto;
 }
+
+.map {
+  margin: auto;
+  width: 1110px;
+  height: 358px;
+  background-color: #3E454D;
+}
+
+.districtmap {
+  padding-bottom: 180px;
+}
+
+
 
 
 
