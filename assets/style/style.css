@@ -43,15 +43,16 @@ input {
 
  .logo img {
    padding-top: 30px;
-   margin-bottom: 5px;
+   margin-bottom: 3px;
  }
 
  .logotext {
-   font-size: 12px;
+   font-size: 9px;
    line-height: 14px;
-   letter-spacing: 0.12em;
+   letter-spacing: 0.1254em;
    color: #fff;
    text-align: center;
+   text-transform: uppercase;
  }
 
 .main-menu ul {
@@ -111,18 +112,22 @@ input {
 .image-information {
   display: flex;
   padding-top: 200px;
+  margin-bottom: 100px;
 }
 
 .info-structure {
-  text-align: center;
-  padding-bottom: 120px;
+  margin-right: 10px;
 }
 
-.textinform {
+.info-structure img {
+  margin: 0 50px 0 50px;
+}
+
+.info-structure p {
   padding-top: 50px;
-  margin-right: 25px;
   color: #fff;
   font: normal 20px/300 27px 'Roboto', sans-serif;
+  text-align: center;
 }
 
 .secondtext {
@@ -165,10 +170,6 @@ input {
 
 .username {
   margin: 0 30px 35px 0;
-  opacity: 65%;
-}
-
-.phone {
   opacity: 65%;
 }
 
@@ -222,11 +223,72 @@ button {
 
 .video {
   display: flex;
+  padding-bottom: 180px;
 }
 
 .videoplay {
   margin: auto;
 }
+
+.map {
+  margin: auto;
+  width: 1110px;
+  height: 358px;
+  background-color: #3E454D;
+}
+
+.districtmap {
+  padding-bottom: 180px;
+}
+
+.second {
+  padding-bottom: 25px;
+}
+
+.secondbtn {
+  margin-left: 30px;
+}
+
+.question {
+  margin-bottom: 180px;
+}
+
+.footer {
+  padding: 30px 0 55px 0;
+  background-color: #3E454D;
+}
+
+.logofooter img {
+  margin-top: 35px;
+}
+
+.oneactions {
+  margin-left: 220px;
+}
+
+.oneactions li {
+  margin-bottom: 15px;
+}
+
+.actionscolumn {
+  display: flex;
+}
+
+.contactsection {
+  margin: -20px 0 0 166px;
+}
+
+span {
+  color: #D4C17F;
+}
+
+.contactsection p {
+  color: #fff;
+}
+
+
+
+
 
 
 
